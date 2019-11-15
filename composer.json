@@ -1,6 +1,8 @@
 {
     "name": "hiraeth/middleland",
     "description": "PSR-7 Request handling and middleware provided by Middleman for the Hiraeth Nano Framework",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +13,13 @@
     ],
     "require": {
         "hiraeth/app": "^2.0",
+        "hiraeth/http": "^1.0",
+        "hiraeth/http-imp": "^1.0",
         "oscarotero/middleland": "^1.0"
+    },
+    "require-dev": {
+        "hiraeth/diactoros": "^1.0",
+        "phpstan/phpstan": "^0.11.8"
     },
     "autoload": {
         "classmap": ["src/"]
