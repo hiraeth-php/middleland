@@ -18,7 +18,6 @@
         "oscarotero/middleland": "^1.0"
     },
     "require-dev": {
-        "hiraeth/diactoros": "^1.0",
         "phpstan/phpstan": "^0.11.8"
     },
     "autoload": {

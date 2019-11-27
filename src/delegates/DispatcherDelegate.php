@@ -8,16 +8,12 @@ use Psr\Http\Message\ServerRequestInterface as ServerRequest;
 use Psr\Http\Message\ResponseInterface as Response;
 
 /**
- *
+ * {@inheritDoc}
  */
 class DispatcherDelegate implements Hiraeth\Delegate
 {
 	/**
-	 * Get the class for which the delegate operates.
-	 *
-	 * @static
-	 * @access public
-	 * @return string The class for which the delegate operates
+	 * {@inheritDoc}
 	 */
 	static public function getClass(): string
 	{
@@ -26,11 +22,7 @@ class DispatcherDelegate implements Hiraeth\Delegate
 
 
 	/**
-	 * Get the instance of the class for which the delegate operates.
-	 *
-	 * @access public
-	 * @param Hiraeth\Application $app The application instance for which the delegate operates
-	 * @return object The instance of the class for which the delegate operates
+	 * {@inheritDoc}
 	 */
 	public function __invoke(Hiraeth\Application $app): object
 	{
