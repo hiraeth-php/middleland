@@ -11,9 +11,11 @@
             "role":  "Lead Architect / Developer"
         }
     ],
+    "provide": {
+        "hiraeth/middleware-imp": "1.0.0"
+    },
     "require": {
         "hiraeth/app": "^2.0",
-        "hiraeth/http": "^1.0",
         "hiraeth/http-imp": "^1.0",
         "oscarotero/middleland": "^1.0"
     },
