@@ -12,7 +12,7 @@
         }
     ],
     "provide": {
-        "hiraeth/middleware-imp": "2.0.0"
+        "hiraeth/middleware-imp": "3.0.0"
     },
     "autoload": {
         "classmap": [
